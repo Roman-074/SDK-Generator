@@ -18,7 +18,6 @@ fun main(args: Array<String>) {
 
 
 object CodeGenerator {
-
     fun generate(){
         val main = FunSpec.builder("main")
             .addCode("""
