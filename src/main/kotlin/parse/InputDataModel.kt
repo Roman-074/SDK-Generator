@@ -1,3 +1,5 @@
+package parse
+
 import com.beust.klaxon.Json
 
 data class InputDataModel(
@@ -26,7 +28,7 @@ data class SnapModel(
     val filter: String,
 
     @Json(name = "snap")
-    val rest_get: String,
+    val rest_get: String
 
 )
 
@@ -35,5 +37,5 @@ data class SnapModel(
 data class ResultModel(
     val version: Int,
     val serial: Int,
-    val target_runtime: String,
+    val target_runtime: String
 )

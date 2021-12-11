@@ -1,3 +1,5 @@
+package parse
+
 import com.beust.klaxon.Klaxon
 import java.io.InputStream
 import java.nio.charset.Charset

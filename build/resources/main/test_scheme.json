@@ -149,7 +149,9 @@
           }
         }
       },
-      "class_build_tag": "main11181"
+      "snap_model": {
+        "filter" : "extension"
+      }
     },
     "snap": {
       "snap_name": "REST Get",
@@ -264,14 +266,14 @@
             }
           }
         }
+      },
+      "snap_model": {
+        "url" : "url_value",
+        "body" : "json_body",
+        "header": "header_value"
       }
     }
   },
-  "target_runtime": "standard",
+  "target_runtime": "standard"
 
-  "snap_model": {
-    "data1" : "fff1",
-    "data2" : "fff2",
-    "data3" : "fff3"
-  }
 }
