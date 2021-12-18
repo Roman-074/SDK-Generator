@@ -151,6 +151,7 @@
         }
       },
       "snap_model": {
+        "model_name" : "FilterModel",
         "filter" : "extension"
       }
     },
@@ -269,6 +270,7 @@
         }
       },
       "snap_model": {
+        "model_name" : "GetModel",
         "url" : "url_value",
         "body" : "json_body",
         "header": "header_value"
